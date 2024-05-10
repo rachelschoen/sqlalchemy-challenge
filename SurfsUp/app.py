@@ -57,11 +57,11 @@ def homepage():
         f"_______________________<br/>"
         f"Minimum, Maximum and average temperature from a given start date to end of dataset:<br/>"
         f"Please enter Start Date in the format: YYYY-MM-DD<br/>"
-        f"/api/v1.0/<start><br/>"
+        f"/api/v1.0/[Start Date]<br/>"
         f"_______________________<br/>"
         f"Minimum, Maximum and average temperature from a given start date to a given end date:<br/>"
         f"Please enter Start Date and End Date in the format: YYYY-MM-DD/YYYY-MM-DD<br/>"
-        f"/api/v1.0/<start>/<end><br/>"
+        f"/api/v1.0/[Start Date]/[End Date]<br/>"
         f"_______________________"
     )
 
