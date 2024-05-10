@@ -224,7 +224,8 @@ def start_end(start, end):
     # Close the session.
     session.close()
 
-    # Create a list of dictionary to store date, min, max and avg temperature values.
+    # Create a list of dictionary to store
+    # date, min, max and avg temperature values.
     start_end_data_list = []
     for date, min, max, avg in start_end_data:
         start_dict = {}
